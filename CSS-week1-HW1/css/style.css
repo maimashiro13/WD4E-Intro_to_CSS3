@@ -97,3 +97,19 @@ footer p {
 footer a {
   color: #ffffff;
 }
+
+/* Gallery layout for neighborhood.html and parks.html —
+   the <div> in <main> that holds all the thumbnail images */
+main div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+main div img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
