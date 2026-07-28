@@ -1,7 +1,7 @@
-/* Step 3 — body: font family and font size */
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
+  margin: 0;
 }
 
 /* Step 4 — header: background color */
@@ -41,4 +41,29 @@ h1 {
 /* Step 10 — p: line height */
 p {
   line-height: 1.6;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Center the logo image in the header */
+header img {
+  display: block;
+  margin: 10px auto 0;
+}
+
+footer p {
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
 }
