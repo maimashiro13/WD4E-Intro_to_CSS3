@@ -1,4 +1,49 @@
-body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 150%;
+/* ============================================
+   WD4E Intro to CSS3 — Week 1 Homework
+   Single stylesheet for all three pages
+   ============================================ */
+
+/* Step 3 — body: font family and font size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Step 4 — header: background color */
+header {
+  background-color: #1a73e8;
+}
+
+/* Step 5 — nav: background color */
+nav {
+  background-color: #2c3e50;
+}
+
+/* Step 6 — main: background color and font size */
+main {
+  background-color: #f5f5f5;
+  font-size: 18px;
+}
+
+/* Step 7 — footer: background color */
+footer {
+  background-color: #2c3e50;
+}
+
+/* Step 8 — li: display and width */
+li {
+  display: inline-block;
+  width: 120px;
+}
+
+/* Step 9 — h1: text alignment, font family, and color */
+h1 {
+  text-align: center;
+  font-family: Georgia, serif;
+  color: #ffffff;
+}
+
+/* Step 10 — p: line height */
+p {
+  line-height: 1.6;
 }
